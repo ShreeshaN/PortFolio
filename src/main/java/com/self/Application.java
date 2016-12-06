@@ -7,7 +7,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@Configuration
 @EnableTransactionManagement
 @PropertySource( value = { "classpath:application.properties" } )
 public class Application {
